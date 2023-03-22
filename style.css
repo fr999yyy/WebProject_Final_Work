@@ -1,0 +1,544 @@
+body{
+    position: relative;
+    background: #EDF1D6;
+}
+
+/* LOGIN PAGE */
+.loginbg{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 471px;
+    height: 531px;
+    left: 484px;
+    top: 150px;
+    z-index: 0;
+    display: flex;
+    
+}
+
+.registerLink{
+    text-decoration: none;
+    position: absolute;
+    top:90px;
+    width: 220px;
+    height: 30px;
+    z-index: 1;    
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.loginWrap{
+    position: relative;
+    width: 471px;
+    height: 531px;
+    left: 484px;
+    top: 230px;
+    z-index: 2;
+    }
+
+#loginBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 26px;
+    gap: 10px;
+
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 184px;
+    top: 230px;
+
+    border: 0;
+    background: #40513B;
+    border-radius: 24px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.4297px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    transition: 0.3s;
+
+}
+
+#loginBtn:hover, #regBtn:hover  {
+    background-color: #EC5555;
+}
+
+.email, .pwd, .username, .checkPwd{
+    width: 100%;
+    height: 28px;
+    font-family: 'YouYuan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.4297px;
+    line-height: 28px;
+    padding: 29px;
+    margin: 5px 0 10px 0;
+    color: #40513B;
+    
+
+}
+
+#enterEmail, #enterPwd, #enterCheckPwd, #enterUsername{
+    display: block;
+    width: 411px;
+    height: 30px;
+    background: #EDF1D6;
+    margin:7px 0 0 0;
+    border-radius: 10px;
+}
+
+.logintitle{
+    position: absolute;
+    width: 240px;
+    height: 89px;
+    left: 116px;
+    top: 8px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 89px;
+    z-index: 1;
+
+color: #EDF1D6;
+}
+
+.r1{
+    position: absolute;
+    width: 471px;
+    height: 480px;
+    left: 0px;
+    top: 0px;
+
+    background: #9DC08B;
+    border-radius: 34px;
+    filter: drop-shadow(24px 18px 0px rgba(64, 81, 59, 0.5));
+
+}
+.r2{
+    position: absolute;
+    width: 471px;
+    height: 138px;
+    left: 0px;
+    top: 0px;
+
+    background: #609966;
+    border-radius: 34px 34px 0px 0px;
+    
+}
+
+/* LOGIN PAGE */
+
+/* register page */
+
+.regbg{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 471px;
+    height: 770px;
+    left: 484px;
+    top: 70px;
+    z-index: 0;
+    display: flex;
+    
+}
+
+.regtitle{
+    position: absolute;
+    width: 240px;
+    height: 89px;
+    left: 116px;
+    top: 8px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 89px;
+    z-index: 1;
+
+color: #EDF1D6;
+}
+
+.loginLink{
+    text-decoration: none;
+    position: absolute;
+    top:90px;
+    width: 220px;
+    height: 30px;
+    z-index: 1;    
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.regWrap{
+    position: relative;
+    width: 471px;
+    height: 531px;
+    left: 484px;
+    top: 150px;
+    z-index: 2;
+}
+
+#regBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 26px;
+    gap: 10px;
+
+    position: absolute;
+    width: 103px;
+    height: 44px;
+    left: 184px;
+    top: 420px;
+
+    border: 0;
+    background: #40513B;
+    border-radius: 24px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25.4297px;
+    line-height: 38px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.r3{
+    position: absolute;
+    width: 471px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+
+    background: #9DC08B;
+    border-radius: 34px;
+    filter: drop-shadow(24px 18px 0px rgba(64, 81, 59, 0.5));
+}
+
+
+
+
+
+/* registerpage */
+
+.clockwrap{
+    position: fixed;
+    width: 259px;
+    height: 470px;
+    left: 1087px;
+    top: 0px;
+    
+}
+
+.clockrope{
+
+position: absolute;
+width: 300px;
+height: 0px;
+right: -32px;
+top: 0px;
+
+border: 3px dashed #9DC08B;
+transform: rotate(90deg);
+box-shadow: 35px -30px 15px 1px #B2B5A0;
+
+}
+
+.time{
+width: 120px;
+height: 75px;
+padding: 0px 7px;
+position: absolute;
+top: 50px;
+left: 55px;
+
+font-family: 'Gen Jyuu GothicX';
+font-style: normal;
+font-weight: 200;
+font-size: 49.7521px;
+line-height: 74px;
+/* identical to box height */
+
+color: #40513B;
+background: #609966;
+border-radius: 17.7686px;
+
+}
+
+.date{ 
+    position: absolute;
+    top: 130px;
+    left: 70px;
+    text-align: center;
+    width: 102px;
+    height: 30px;
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.clockbody{
+    box-sizing: border-box;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 259px;
+    height: 259px;
+    left: 1100px;
+    top: 150px;
+    border-radius: 100%;
+    box-shadow: 35px 30px 15px 1px #B2B5A0;
+    
+    background: #9DC08B;
+    border: 7px solid #609966;
+
+    
+}
+
+.showUserID{
+position: absolute;
+width: 100%;
+height: 37px;
+left: 27px;
+top: -30px;
+
+font-family: 'Gen Jyuu GothicX';
+font-style: normal;
+font-weight: 200;
+font-size: 25px;
+line-height: 37px;
+letter-spacing: 0.17em;
+
+color: #40513B;
+}
+
+
+.logoutBtn:hover{
+    background: #EC5555 ;
+}
+
+.logoutBtn{
+    transition: 0.3s;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 9.46739px;
+    gap: 7.28px;
+    
+    position: absolute;
+    width: 66.93px;
+    height: 32px;
+    left: 27px;
+    top: 10px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.8478px;
+    line-height: 32px;
+    letter-spacing: 0.17em;
+
+    color: #EDF1D6;
+    
+    background: #40513B;
+    border-radius: 12.3804px;
+    border: 0px;
+
+}
+
+.logoutBtn .logouttext{
+    width: 48px;
+    height: 32px;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21.8478px;
+    line-height: 32px;
+    letter-spacing: 0.17em;
+
+    color: #EDF1D6;
+
+}
+
+.addBtn{
+    position: absolute;
+    width: 38.99px;
+    height: 38.99px;
+    right: 40px;
+    top: 16px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.addBtn, .editBtn, .doneBtn{
+    font-size: 0px;
+    transition:0.3s;
+}
+
+.addBtn:hover, .editBtn:hover, .doneBtn:hover{
+    background: #EC5555;
+}
+
+.editInput{
+    position: absolute;
+    width: 600px;
+    height: 25px;
+    vertical-align: middle;
+    z-index: 10;
+}
+
+.editBtn{
+    position:absolute;
+    right:90px;
+    width: 30px;
+    height: 30px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.doneBtn{
+    position:absolute;
+    right:40px;
+    width: 30px;
+    height: 30px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.doneBtn, .editBtn{
+    vertical-align: bottom;
+    top:0px;
+}
+
+.addString{
+    position: absolute;
+    width: 640px;
+    height: 39px;
+    top: 15px;
+    left: 25px;
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    outline:1px transparent black;
+    background: #FFFFFF;
+    border-radius: 7.50475px;
+}
+
+.addWrap{
+    position: absolute;
+    width: 783px;
+    height: 70px;
+    left: 123px;
+    top: 113px;
+
+    background: #9DC08B;
+    border: 2.46619px dashed #40513B;
+    border-radius: 17.2633px;
+}
+
+.todoWrap{
+    position: absolute;
+    width: 783px;
+    height: 559px;
+    left: 123px;
+    top: 230px;
+
+    background: #EDF1D6;
+    border: 3px solid #40513B;
+    border-radius: 21px;
+}
+
+.addIcon{
+    position: absolute;
+    left: 25.57%;
+    right: 24.43%;
+    top: 25.57%;
+    bottom: 24.43%;
+    width: 20px;
+    height: 20px;
+}
+
+.editicon{
+    position: absolute;
+    left: 25.57%;
+    right: 24.43%;
+    top: 25.57%;
+    bottom: 24.43%;
+    width: 16px;
+    height: 16  px;
+    pointer-events:none;
+}
+
+.doneicon{
+    pointer-events:none;
+    position: absolute;
+    left: 25.57%;
+    right: 24.43%;
+    top: 25.57%;
+    bottom: 24.43%;
+    width: 16px;
+    height: 16px;
+}
+
+.todo{
+    position: relative;
+    width: 100%;
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px;
+    
+}
+
+.title{
+    
+    text-align: center;
+
+    font-family: 'Gen Jyuu GothicX';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 30px;
+    letter-spacing: 0.17em;
+    z-index: 5;
+    color: #40513B;
+}
