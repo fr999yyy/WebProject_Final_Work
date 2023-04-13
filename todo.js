@@ -99,7 +99,7 @@ setInterval()
 
 function logout(){
     alert('登出成功！');
-    window.location.replace('login.html');
+    window.location.replace('index.html');
 }
 
 function updateClock(){
