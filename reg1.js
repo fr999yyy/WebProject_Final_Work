@@ -49,7 +49,7 @@ function reg(e){
     data.push(userInfo);
     localStorage.setItem('account', JSON.stringify(data));
     alert('註冊成功！');
-    window.location.replace('login.html');
+    window.location.replace('index.html');
 }
     
 
